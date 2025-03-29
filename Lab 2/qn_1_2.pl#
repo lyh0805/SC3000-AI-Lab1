@@ -1,0 +1,7 @@
+competitor(sumsum, appy).
+developed(sumsum, galacticas3).
+stolen(stevey, galacticas3).
+boss(stevey, appy).
+unethical(X) :- boss(X, Company), competitor(Competitor, Company), developed(Competitor, Item), stolen(X, Item).
+
+
